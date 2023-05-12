@@ -787,6 +787,7 @@ label {
 }
 
 .modal-lable-text {
+  display: flex;
   align-items: center;
   color: var(--icon-color);
   font-family: "Roboto", sans-serif;
@@ -796,6 +797,7 @@ label {
   line-height: 1.17;
   letter-spacing: 0.04em;
   margin-bottom: 24px;
+  justify-content: center;
 }
 
 .modal-text {
@@ -846,7 +848,4 @@ input[type="checkbox"]:checked + .icon-modal {
 
 .privecy-href {
   text-decoration: underline;
-}
-.modal-lable-text {
-  display: flex;
 }
