@@ -357,7 +357,7 @@ a {
   margin-right: 120px;
 }
 
-.subskribe-mail::placeholder {
+.subscribe-mail::placeholder {
   color: var(--second-white-color);
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -367,7 +367,11 @@ a {
   letter-spacing: 0.04em;
 }
 
-.subskribe-mail {
+.footer-lable {
+  display: flex;
+  flex-direction: row;
+}
+.subscribe-mail {
   border: 1px solid var(--second-white-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -375,6 +379,8 @@ a {
   width: 264px;
   height: 40px;
   box-sizing: border-box;
+  padding-left: 16px;
+  margin-right: 24px;
 }
 
 .social-media {
@@ -763,6 +769,10 @@ label {
   border-color: var(--blue-color);
 }
 
+.icon-send {
+  margin-left: 16px;
+}
+
 .modal-lable-text {
   align-items: center;
   color: var(--icon-color);
@@ -824,6 +834,6 @@ label {
 .privecy-href {
   text-decoration: underline;
 }
-.modal-lable-t {
+.modal-lable-text {
   display: flex;
 }
