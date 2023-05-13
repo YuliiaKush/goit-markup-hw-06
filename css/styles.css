@@ -367,9 +367,8 @@ a {
   letter-spacing: 0.04em;
 }
 
-.footer-lable {
+.footer-subscribe {
   display: flex;
-  flex-direction: row;
 }
 .subscribe-mail {
   border: 1px solid var(--second-white-color);
@@ -381,6 +380,7 @@ a {
   box-sizing: border-box;
   padding-left: 16px;
   margin-right: 24px;
+  color: var(--second-white-color);
 }
 
 .social-media {
@@ -680,7 +680,7 @@ a {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 24px;
+  padding: 72px 24px 24px;
 }
 
 .modal-close-btn {
@@ -726,7 +726,6 @@ a {
 }
 
 label {
-  display: flex;
   flex-direction: column;
   margin-bottom: 4px;
 }
@@ -739,7 +738,6 @@ label {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
-  margin-top: 48px;
   margin-bottom: 16px;
   padding-left: 0;
   text-align: center;
@@ -801,6 +799,7 @@ label {
 }
 
 .modal-text {
+  display: flex;
   position: relative;
   margin-bottom: 8px;
 }
@@ -826,9 +825,11 @@ label {
 .modal-form-comment:focus {
   border-color: var(--blue-color);
   outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 10);
 }
 
 .icon-modal {
+  display: block;
   width: 16px;
   height: 16px;
   background-origin: border-box;
@@ -843,8 +844,10 @@ label {
 
 input[type="checkbox"]:checked + .icon-modal {
   background-color: var(--background-button);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 10);
 }
 
 .privecy-href {
   text-decoration: underline;
+  color: var(--blue-color);
 }
